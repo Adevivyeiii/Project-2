@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body class="bg" >
+
+<div class="body" >
+	<div class=" container-fluid sticky">
+		<div class=" ">
+			
+
+					<div class=" row hidden-md-down">
+						<div class=" container-fluid navbar"><h1 class="logocontainer logoshadow">Simpl'eg</h1>
+							<div class="row btn-default nav" href="#" >
+								<a class="nav" href="#"><img class="navthumb" onmouseout="this.src='css/icons/lookupthumbb.png'" onmouseover="this.src='css/icons/lookupbw.png'" src="css/icons/lookupthumbb.png"><br>Reset</a>
+							</div>
+
+							<div class="row btn-default nav" href="#">
+								<a class="nav" href="#replistthumb" data-target="#replistthumb" data-toggle="modal"><img class="navthumb" src="css/icons/pinbw.png"> By Your Location</a>
+							</div>
+
+							<div class="row btn-default nav" href="#">
+								<a class="nav" href="#Senators"><img class="navthumb" src="css/icons/officebw.png">Senate</a>
+							</div>
+
+							<div class="row btn-default nav" href="#">
+								<a class="nav" href="#horname"><img class="navthumb" src="css/icons/officebw.png">House of Reps</a>
+							</div>
+
+							<div class="row btn-default nav" href="#">
+								<a class="nav" href="#LABOS"><img class="navthumb" src="css/icons/workthumbbw.png"> District Officials</a>
+							</div>
+						</div>
+					</div>
+					<div class=" row hidden-lg-up hidden-sm-down">
+						<div class="container-fluid navbar">
+						<h1 class="logocontainer logoshadow">S'E</h1>
+							<p><a class="navthumb" href="#"><img class="navthumb" onmouseout="this.src='css/icons/lookupthumbb.png'" onmouseover="this.src='css/icons/lookupbw.png'" src="css/icons/lookupthumbb.png"><br>Home </a>
+
+							<div class="row btn-default nav" href="#">
+								<a class="nav" href="#replistthumb" data-target="#replistthumb" data-toggle="modal"><img class="navthumb" src="css/icons/pinbw.png"><br>Your Location  </a>
+							</div>
+
+							<div class="row btn-default nav" href="#Senators">
+								<a class="nav" href="#Senators"><img class="navthumb" src="css/icons/officebw.png"><br>Senate </a>
+							</div>
+
+							<div class="row btn-default nav" href="#horname">
+								<a class="nav" href="#horname"><img class="navthumb" src="css/icons/officebw.png"><br>House of Reps </a>
+							</div>
+
+							<div class="row btn-default nav" href="#horstate">
+								<a class="nav" href="#LABOS"><img class="navthumb" src="css/icons/workthumbbw.png"><br>District Officials </a>
+							</div></p>
+						</div>
+					</div>
+					<div class=" row hidden-md-up">
+						<div class="container-fluid navbar">
+						<h4 class="logocontainer logoshadow">S'E</h4>
+							<a class="navthumb" href="#"></a>
+							<div class="dropdown show">
+								  <a class="btn btn-default" href="https://example.com" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="navthumb" onmouseout="this.src='css/icons/lookupthumbb.png'" onmouseover="this.src='css/icons/lookupbw.png'" src="css/icons/lookupthumbb.png">
+								    
+								  </a>
+
+								  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+								  	<a class="dropdown-item" href="#topofpage">Home</a>
+								    <a class="dropdown-item" href="#Senators">U.S. Senate</a>
+								    <a class="dropdown-item" href="#horname">House of Reps by Name</a>
+								    <a class="dropdown-item" href="#horstate">House of Reps by State</a>
+								     <a class="dropdown-item" href="#LABOS">DistrictOfficialsaccordian</a>
+								    
+								    <a class="dropdown-item" href="#news">News</a>
+								  </div>
+								</div>
+
+							
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<script src="js/jquery.js">
+	</script> 
+	<script src="js/tether.min.js">
+	</script> 
+	<script src="js/bootstrap.min.js">
+	</script> 
+	<script src="js/custom.js">
+	</script>
+	<script src="xml/xmlloader.js">
+	</script>
+	<script src="js/panelsnap.js">
+	</script>
+</body>
+</html>

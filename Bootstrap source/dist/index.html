@@ -1,19 +1,417 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+
 	<title>Project 2</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Baloo|Ranga|Merriweather+Sans|Supermercado+One" rel="stylesheet"> 
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/pyramidmodal.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+	<link href="scss/bootstrap.scss" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Baloo|Ranga|Merriweather+Sans|Supermercado+One" rel="stylesheet">
+
 </head>
-<body>
-	
-	<div class="card">
+
+<body class="bg" >
+
+<div class="body" >
+	<div class=" container-fluid sticky">
+		<div class=" ">
+			
+
+					<div class=" row hidden-sm-down">
+						<div class=" container-fluid navbar sticky"><h1 class="logocontainer logoshadow">Simpl'eg</h1>
+							<div class="row btn btn-default nav" href="#" >
+								<a class="nav" href="#"><img class="navthumb" onmouseout="this.src='css/icons/lookupthumbb.png'" onmouseover="this.src='css/icons/lookupbw.png'" src="css/icons/lookupthumbb.png"><br>Reset</a>
+							</div>
+
+						
+							<div class="dropdown ">
+								<a class="btn btndefault nav" id="dropdownfederal" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<img class="navthumb" src="css/icons/officebw.png">Federal Representatives</a>
+								<div class="dropdown-menu" aria-labelledby="dropdownfederal">
+								  	 
+								  	<a class="dropdown-item" href="#topofpage">Home</a>
+								  	<hr>
+									    <a class="dropdown-item" href="#pres">President of US</a>
+									    <a class="dropdown-item" href="#Senators">US Senate</a>
+									    <a class="dropdown-item" href="#horname">House of Representatives</a>
+
+								</div>
+							</div>
+
+							<div class="dropdown ">
+							  	<a class="btn btn-default nav"  id="dropdownDistrict" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="navthumb" src="css/icons/officebw.png">House of Reps</a>
+								<div class="dropdown-menu" aria-labelledby="dropdownState">
+								  	 
+								  	<a class="dropdown-item" href="#topofpage">Home</a>
+								  	<hr>
+								    <a class="dropdown-item" href="#castateassembly">California State Assembly</a>
+								    <a class="dropdown-item" href="#casenate">California State Senate</a>
+								</div>									
+							</div>
+								
+							
+							<div class="dropdown ">
+								  <a class="btn btn-default nav" id="dropdownDistrict" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="navthumb" src="css/icons/workthumbbw.png"> District Officials </a>
+								    
+								  </a>
+
+								  <div class="dropdown-menu" aria-labelledby="dropdownDistrict">
+								  	 
+								  	<a class="dropdown-item" href="#topofpage">Home</a>
+								  	<hr>
+								  	<a class="dropdown-item" href="#LABOS">Los Angeles Board of Supervisors </a>
+								    <a class="dropdown-item" href="#laco">Los Angeles City Officials</a>
+								    <a class="dropdown-item" href="#BoE">Los Angeles Board of Education </a>
+								    <a class="dropdown-item" href="#BoT"> Los Angeles Board of Trustees</a>
+								  </div>
+								 </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class=" row hidden-md-up">
+						<div class="container-fluid navbar sticky">
+						<h4 class="logocontainer logoshadow">S'E</h4>
+							
+							<div class="dropdown show">
+								  <a class="btn btn-default" href="https://example.com" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="navthumb" onmouseout="this.src='css/icons/lookupthumbb.png'" onmouseover="this.src='css/icons/lookupbw.png'" src="css/icons/lookupthumbb.png">
+								    
+								  </a>
+
+								  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+								  	 
+								  	<a class="dropdown-item" href="#topofpage">Home</a>
+								  	<hr>
+								  	<a class="dropdown-item" href="#pres">President of the U.S</a>
+								    <a class="dropdown-item" href="#Senators">U.S. Senate</a>
+								    <a class="dropdown-item" href="#horname">House of Representaives </a>
+								    <a class="dropdown-item" href="#castateassembly">California State Assembly</a>
+								     <a class="dropdown-item" href="#LABOS">Los Angeles Board of Supervisors </a>
+								     <a class="dropdown-item" href="#Lao">Los Angeles City Officials</a>
+								    <a class="dropdown-item" href="#BoE">Los Angeles Board of Education </a>
+								    <a class="dropdown-item" href="#BoT"> Los Angeles Board of Trustees</a>
+								  </div>
+								  </div>
+								</div>
+
+							</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+				
+<section>
+	<div class="container-fluid row txtcenter" id="topofpage">
+		<div class="container">
+			<h1>Legislative Connection, Made Easy!</h1>
+			<br>			
+		</div>
+		<br>
+
+
+		<div class="col-xs-12 col-lg-6 txtcenter">
+			<div aria-multiselectable="true" class="logoshadow" id="accordion" role="tablist">
+				<div class="card rnd-tp">
+					<div class="card-header" id=" FedOfficialsaccordian" role="tab">
+						<h5 class="mb-0">
+						<h3><a aria-controls="collapseOne" aria-expanded="false" data-parent="#accordion" data-toggle="collapse" href="#collapseOne">Federal Officials</a></h3>
+						</h5>
+					</div>
+
+
+					<div aria-labelledby=" FedOfficialsaccordian" class="collapse" id="collapseOne" role="tabpanel">
+						<div class="card-block">
+							<div>President of the United States
+								<br>
+								<h4 class="red" ><a href="#pres">Donald J. Trump</a></h4>
+								<br>
+								<p>
+									<a target="_blank" href="http://www.whitehouse.gov/president/"> 
+									Official Site </a></p>							
+							</div>
+							<hr>
+							<div> 
+								<a href="#Senators">United States Senators</a>
+							</div>
+							<hr>
+							<div>United States House of Reps
+								<br> 
+								 
+								 <a href="#horname">By Name</a> <a href="#horstate">By State</a> 
+							 </div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="card">
+					<div class="card-header" id=" StateOfficialsaccordian" role="tab">
+						<h5 class="mb-0">
+						<h3>
+							<a aria-controls="collapseTwo" aria-expanded="false" class="collapsed" data-parent="#accordion" data-toggle="collapse" href="#collapseTwo">State Officials</a></h3>
+						</h5>
+					</div>
+
+
+					<div aria-labelledby=" StateOfficialsaccordian" class="collapse" id="collapseTwo" role="tabpanel">
+						<div class="card-block">
+							<div><a href="#governer">California State Governor</a></div>
+							<div><a href="#casenate">California State Senate</a></div>
+							<div><a href="#castateassembly"> California State Assembly</a>
+							<br>BY:
+							<th class="views-field views-field-field-member-lname-sort active" scope="col">
+						<a class="active" href="#castateassembly" title="sort by Name">Name
+					</th>
+					<th class="views-field views-field-field-member-district" scope="col">
+						<a class="active" href="#castateassemblydistrict" title="sort by District">
+						
+						District</a>
+					</th>
+					<th class="views-field views-field-field-member-party" scope="col">
+						<a class="active" href="#castateassemblyparty" title="sort by Party">Party</a>
+					</th>
+				
+					</div>
+							
+						</div>
+					</div>
+				</div>
+				<div class="card rnd-bm">
+					<div class="card-header" id="DistrictOfficialsaccordian" role="tab">
+						<h5 class="mb-0">
+						<h3><a aria-controls="collapseThree" aria-expanded="false" class="collapsed" data-parent="#accordion" data-toggle="collapse" href="#collapseThree">District Officials</a></h3>
+						</h5>
+					</div>
+
+
+					<div aria-labelledby="DistrictOfficialsaccordian" class="collapse" id="collapseThree" role="tabpanel">
+						<div class="card-block">
+							<div><a href="#LABOS">Los Angeles County Board of Supervisors</a></div>
+							<div><a href="#laco">Los Angeles City Officials</a></div>
+							<div> <a href="#BoE">Board of Education, LAUSD</a></div>
+							<div> <a href="#BoT">Board of Trustees, Los Angeles Community College District</a></div> 
+							
+						</div>
+					</div>
+				
+
+				<div class="card rnd-bm">
+					<div class="card-header" id="DistrictOfficialsaccordian" role="tab">
+						<h5 class="mb-0">
+						<h3><a aria-controls="collapseFour" aria-expanded="false" class="collapsed" data-parent="#accordion" data-toggle="collapse" href="#collapseFour">District Map</a></h3>
+						</h5>
+					</div>
+
+
+					<div aria-labelledby="Mapaccordian" class="collapse" id="collapseFour" role="tabpanel">
+						<div class="card-block">
+							
+							<div class="">
+			<iframe class="responsive logoshadow"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26391.26341287443!2d-118.5372855046707!3d34.239384212149375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c29aff4d30d009%3A0x1c0351d4f4149240!2sNorthridge%2C+CA+91330!5e0!3m2!1sen!2sus!4v1489116418639" style="display: static;"
+			disableDefaultUI: true, scrollable: false, draggable: false ></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+
+		</div>
+
+
 		
 
-		<h1>GOOGLE FONTS</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, corrupti, veniam. Porro ex suscipit consequatur adipisci. Perspiciatis culpa excepturi repellat eum, ipsa quis, exercitationem, optio doloremque dolorum magni maiores iste.</p>
-	</div>
-</body>
+			<!-- *******************************************************MODAL******************************************	 -->
+			<div aria-hidden="true" aria-labelledby="replistthumb" class=" txtcenter modal fade w3-animate-zoom" id="replistthumb" role="dialog" tabindex="-1">
+			<div class="modal-dialog " role="document">
+				<div class="modal-content">
+					<div class="modal-body">
+						<div id="tridiv">
+							<div class=" scene" style="-webkit-transform:rotateX(2deg) rotateY(339deg); -moz-transform:rotateX(2deg) rotateY(339deg); -ms-transform:rotateX(2deg) rotateY(339deg); transform:rotateX(2deg) rotateY(339deg);">
+								<div class="shape pyramid-1 pyr-1">
+									<div class="face-wrapper ft">
+										<div class="face">
+											<div class="photon-shader" style="background-color: rgba(255, 255, 255, 0.0313726);">
+											</div>
+										</div>
+									</div>
 
+
+									<div class="face-wrapper bk">
+										<div class="face">
+											<div class="photon-shader" style="background-color: rgba(255, 255, 255, 0.0431373);">
+											</div>
+										</div>
+									</div>
+
+
+									<div class="face-wrapper lt">
+										<div class="face">
+											<div class="photon-shader" style="background-color: rgba(255, 255, 255, 0.0431373);">
+											</div>
+										</div>
+									</div>
+
+
+									<div class="face-wrapper rt">
+										<div class="face">
+											<div class="photon-shader" style="background-color: rgba(255, 255, 255, 0.0431373);">
+											</div>
+										</div>
+									</div>
+
+
+									<div class="face bm">
+										<div class="photon-shader" style="background-color: rgba(255, 255, 255, .2);">
+											<div class="container-fluid infoslice txtcenter">
+											<h5>Reps for Zip-code 91343</h5>
+											<hr>
+											<h6 class="blue"><a  href="#president">
+														State Assembly (District 46) <br>
+														Assembly Member Adrin Nazarian-DEM <br>		 <br></a></h6>
+											<h6 class="blue"><a href="#">
+														State Senate (District 18) <br>
+														Senator Robert M. Hertzberg-DEM<br>
+														Assembly Member Adrin Nazarian-DEM <br>		 <br></a></h6>
+														<h6 class="blue"><a href="#">
+														State Senate (District 18) <br>
+														Senator Robert M. Hertzberg-DEM<br>
+														Assembly Member Adrin Nazarian-DEM <br>		 <br></a></h6>
+														<h6 class="blue"><a href="#">
+														State Senate (District 18) <br>
+														Senator Robert M. Hertzberg-DEM<br>
+														Assembly Member Adrin Nazarian-DEM <br>		 <br></a></h6>
+														<h6 class="blue"><a href="#">
+														State Senate (District 18) <br>
+														Senator Robert M. Hertzberg-DEM<br>
+														Assembly Member Adrin Nazarian-DEM <br>		 <br></a></h6>	
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>		
+	</div>
+	<div class="col-xs-12 col-lg-6">
+			<div class="containter card detaildisplay">
+				<div id="contacthelp">
+					<iframe src="contacthelp.html" class="responsive logoshadow" frameborder="0">
+					<input type="button" value="Go Back From Whence You Came!" onclick="history.back(-1)" />
+					</iframe>
+				</div>
+			</div>
+		</div>
+</section>
+
+	
+	<!-- ********************************************************************************************************  InfoExpanded ********************************************************************************************************************8 -->
+
+
+<div class="container-fluid row txtcenter" id="detail section">
+	<div class="col-xs-12 col-lg-6">
+		<div class="containter card detaildisplay">
+			<div class="tab">
+				<div id="Senators">
+					<iframe class="responsive logoshadow" frameborder="0" src="Senators.html"></iframe>
+				</div>
+				<div id="casenate">
+					<iframe class="responsive logoshadow" frameborder="0" src="casenate.html"></iframe>
+				</div>
+				<div id="horname">
+					<iframe class="responsive" frameborder="0" src="houseofrepsbyname.html"></iframe>
+				</div>
+				<div id="horstate">
+					<iframe class="responsive logoshadow" frameborder="0" src="houseofrepsbystate.html"></iframe>
+				</div>
+				<div id="pres">
+					<iframe class="responsive logoshadow" frameborder="0" src="pres.html"></iframe>
+				</div>
+				<div id="governer">
+					<iframe class="responsive logoshadow" frameborder="0" src="governer.html"></iframe>
+				</div>
+				<div id="castateassembly">
+					<iframe class="responsive logoshadow" frameborder="0" src="caassembly.html"></iframe>
+				</div>
+				<div id="castateassemblydistrict">
+					<iframe class="responsive logoshadow" frameborder="0" src="assemblybydistrict.html"></iframe>
+				</div>
+				<div id="castateassemblyparty">
+					<iframe class="responsive logoshadow" frameborder="0" src="assemblybyparty.html"></iframe>
+				</div>
+				<div id="LABOS">
+					<iframe class="responsive logoshadow" frameborder="0" src="labos.html"></iframe>
+				</div>
+				<div id="laco">
+					<iframe class="responsive logoshadow" frameborder="0" src="laco.html"></iframe>
+				</div>
+				<div id="BoE">
+					<iframe class="responsive logoshadow" frameborder="0" src="boe.html"></iframe>
+				</div>
+				<div id="BoT">
+					<iframe class="responsive logoshadow" frameborder="0" src="bot.html"></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-12 col-lg-6">
+		<div class="containter card detaildisplay">
+			<div class="tab">
+				<div id="ladistrict1">
+					<iframe class="responsive logoshadow" frameborder="0" src="http://www.laschoolboard.org/sites/default/files/images/maps/2012-13BoardDistrict1Map.pdf"></iframe>
+				</div>
+				<div id="ladistrict2">
+					<iframe class="responsive logoshadow" frameborder="0" src="http://www.laschoolboard.org/sites/default/files/images/maps/2012-13BoardDistrict2Map.pdf"></iframe>
+				</div>
+				<div id="ladistrict3">
+					<iframe class="responsive logoshadow" frameborder="0" src="http://www.laschoolboard.org/sites/default/files/images/maps/2012-13BoardDistrict3Map.pdf"></iframe>
+				</div>
+				<div id="ladistrict4">
+					<iframe class="responsive logoshadow" frameborder="0" src="http://www.laschoolboard.org/sites/default/files/images/maps/2012-13BoardDistrict4Map.pdf"></iframe>
+				</div>
+				<div id="ladistrict5">
+					<iframe class="responsive logoshadow" frameborder="0" src="http://www.laschoolboard.org/sites/default/files/images/maps/2012-13BoardDistrict5Map.pdf"></iframe>
+				</div>
+				<div id="ladistrict6">
+					<iframe class="responsive logoshadow" frameborder="0" src="http://www.laschoolboard.org/sites/default/files/images/maps/2012-13BoardDistrict6Map.pdf"></iframe>
+				</div>
+				<div id="ladistrict7">
+					<iframe class="responsive logoshadow" frameborder="0" src="http://www.laschoolboard.org/sites/default/files/images/maps/2012-13BoardDistrict7Map.pdf"></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+	<!-- ********************************************************************************************************************************************************************************************  MODAL  *******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-->
+	<!-- Modal -->
+
+
+	
+</div>
+					<script src="js/jquery.js">
+					</script> 
+					<script src="js/tether.min.js">
+					</script> 
+					<script src="js/bootstrap.min.js">
+					</script> 
+					<script src="js/custom.js">
+					</script>
+					<script src="xml/xmlloader.js"></script>
+					<script src="js/panelsnap.js"></script>
+</body>
 </html>
